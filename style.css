@@ -1,0 +1,59 @@
+h1{height: 4em;
+background-color: rgb(128, 128, 128);
+display:flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;}
+
+.center{display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+.balance{font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+width: 5em;
+gap: .5em;
+padding-left: 9em;}
+
+
+.money{font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(165, 176, 135)
+    ;}
+    
+.reset{width: 4em;
+    height: 3em;
+font-family: Arial, Helvetica, sans-serif;
+font-size: .5em;
+border: none;
+background-color: rgb(175, 85,82 );
+color: white;
+border-radius: .5em;}
+
+.transaction{border: 1px solid black;
+height: 15em;
+width: 25em;
+}
+
+.transaction_bar{margin-top: 2em;
+background-color:rgb(247,247,247);
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.transaction-parts{text-decoration: none;
+color: black;
+padding: .2em;
+font-size: 1.2em;
+font-weight: bold}
+
+
